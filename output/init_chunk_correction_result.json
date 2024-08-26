@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Cinderella",
+            "entity_description": "Cinderella is the main protagonist of the story, depicted as a young and beautiful maiden who is mistreated by her stepmother and stepsisters. She is often covered in cinders from working near the fire, which is how she gets the name Cinderella. Despite her harsh treatment, she shows kindness, resilience, and has the ability to call upon birds to assist her with tasks. With the magical aid of a hazel twig planted at her mother's grave, she is able to attend the King's Festival in beautiful clothes, where she captures the heart of the prince and ultimately becomes his bride."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Mother",
+            "entity_description": "Cinderella's biological mother, who passed away early in the story. Described as a kind and pious woman, she cared deeply for her daughter. Her grave becomes a place of magical significance, where Cinderella receives assistance from a mystical bird residing in a hazel bush."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Father",
+            "entity_description": "Cinderella's father, a rich man who remarried after the death of Cinderella's mother. Although he brought a hazel twig for Cinderella from a fair, he remains largely unaware of the true situation regarding Cinderella's mistreatment by her step-family and the events occurring at the festival."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Stepmother",
+            "entity_description": "Cinderella's stepmother, the second wife of Cinderella's father. She is depicted as manipulative and cruel, leading her own two daughters to mistreat Cinderella. The stepmother tries to prevent Cinderella from attending the King's Festival and goes to extreme lengths to ensure her daughters are chosen by the prince."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Stepsisters",
+            "entity_description": "The two daughters of Cinderella's stepmother, described as beautiful but cruel. They mistreat Cinderella and demand her assistance with chores. At the King's Festival, they try to win the prince's favor by attempting to fit the golden shoe, even resorting to self-harm at their mother's encouragement."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "Mother's Grave",
+            "entity_description": "The grave of Cinderella's biological mother, where Cinderella goes to mourn and seek help. It is under a hazel bush that becomes magical, providing Cinderella with dresses and other aids."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "Hazel Twig",
+            "entity_description": "A hazel twig brought by Cinderella's father from the fair and planted at Cinderella's mother's grave. It grows into a magical tree that provides Cinderella with beautiful clothes and slippers, aiding her attendance at the King's Festival."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "King's Festival",
+            "entity_description": "A grand event at the King's palace, the festival is organized for the prince to choose his bride. Cinderella attends with the help of the magical hazel tree, ultimately leading to her union with the prince."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Prince",
+            "entity_description": "The prince is a royal figure who only dances with Cinderella at the King's Festival and desires to discover her identity. Recognizing Cinderella as his true bride, he marries her, bringing her happiness and elevating her status."
+        }
+    ],
+    "relations": [
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Mother",
+            "relationship_description": "Cinderella's biological mother, who influences her character and actions from the beginning to the end of the story.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Father",
+            "relationship_description": "Cinderella's father, who though remarries and indirectly contributes to her hardships, gives her the hazel twig that becomes important to her story.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Stepmother",
+            "relationship_description": "Cinderella's stepmother, who treats her harshly and subjects her to difficult living conditions.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Stepsisters",
+            "relationship_description": "The two stepsisters, who constantly mistreat Cinderella and contribute to her suffering.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Mother's Grave",
+            "relationship_description": "Cinderella goes to her mother's grave to seek help, which results in her receiving magical dresses to attend the festival.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Hazel Twig",
+            "relationship_description": "A magical object that becomes a source of Cinderella's strength and support, offering her magical aid.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "King's Festival",
+            "relationship_description": "Cinderella attends the King's Festival, where she transforms into a beautiful maiden, enchanting the prince.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Stepmother",
+            "target_entity": "Cinderella",
+            "relationship_description": "The stepmother limits Cinderella's participation in the festival by creating seemingly impossible tasks for her to complete. This relationship highlights the power imbalance and control the stepmother has over Cinderella.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "Stepsisters",
+            "target_entity": "Cinderella",
+            "relationship_description": "The stepsisters are attending the festival and rely on Cinderella to do household tasks to help prepare them for it. This dynamic shows how Cinderella is obliged to serve them, despite her own desires.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "Mother's Grave",
+            "target_entity": "Hazel Twig",
+            "relationship_description": "The mother's grave, likely as part of its magical properties, through the bird, helps Cinderella by providing her with dresses and shoes.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "Prince",
+            "relationship_description": "Cinderella is recognized by the prince as the rightful bride, and they are married, indicating a strong relationship between them.",
+            "relationship_strength": 10
+        }
+    ]
+}

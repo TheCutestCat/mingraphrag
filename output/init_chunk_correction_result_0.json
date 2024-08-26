@@ -1,0 +1,101 @@
+{
+    "entities": [
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Cinderella",
+            "entity_description": "Cinderella is the central character of the story, who is known for her beauty, kindness, and modesty despite living in harsh conditions. Her mother, Rich Man's Wife, advises her to be pious and watches over her from heaven. Cinderella endures mistreatment from her stepmother and stepsisters, who force her into servitude and prevent her from enjoying life. Despite these hardships, Cinderella is determined to attend the king\u2019s festival, relying on magical aid from a hazel bush and bird to transform her appearance with a splendid dress and slippers. Her enchanting appearance at the festival captures the attention of the King's Son, leading to a series of events that ultimately result in her becoming his bride after proving her identity with the golden slipper."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Rich Man",
+            "entity_description": "The Rich Man is Cinderella's father who remarries after the death of her mother, the Rich Man's Wife. He is depicted as wealthy but largely absent from Cinderella's life, and inadvertently contributes to her difficult circumstances by bringing the Stepmother and Stepsisters into her life, who mistreat her."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Rich Man's Wife",
+            "entity_description": "The Rich Man's Wife, Cinderella's biological mother, is described as a wise and caring figure who passes away early in the story. Before her death, she advises Cinderella to remain pious and assures her that she will watch over her from heaven."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Stepmother",
+            "entity_description": "The Stepmother is a central antagonist in the story, known for her cruelty and manipulativeness. As Cinderella\u2019s stepmother, she treats her poorly, forcing her into subservient roles and favoring her biological daughters, the Stepsisters. She prevents Cinderella from attending the king\u2019s festival and even encourages deceptive measures to fit her daughters into the prince\u2019s shoe to win his favor."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "Stepsisters",
+            "entity_description": "The Stepsisters, daughters of the Stepmother, are depicted as proud and self-centered individuals who take delight in belittling Cinderella. They are eager to capture the attention of the King\u2019s Son at the festival, and in their envy, they go to extremes by attempting to fit into the golden slipper, despite it not being theirs."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "King's Son",
+            "entity_description": "The King's Son, commonly known as the Prince, plays a pivotal role in Cinderella\u2019s story. Enchanted by her at the festival, he dances solely with her and seeks to discover her identity. He ultimately uses the magical golden slipper to find her and confirms her as his true bride when the slipper fits perfectly."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "Pigeon-house",
+            "entity_description": "The Pigeon-house is referenced in Cinderella\u2019s story as a place she uses to hide from the King's Son. It becomes relevant when Cinderella uses the structure to escape after the festival, helping her to maintain her secret identity temporarily."
+        }
+    ],
+    "relations": [
+        {
+            "source_entity": "Rich Man",
+            "target_entity": "Cinderella",
+            "relationship_description": "Rich Man is the father of Cinderella, establishing a familial connection, although he remains largely absent from her life after his remarriage.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Rich Man",
+            "target_entity": "Rich Man's Wife",
+            "relationship_description": "Rich Man is married to the first wife, who is Cinderella's biological mother and passes away, leading to his remarriage.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "Stepmother",
+            "target_entity": "Cinderella",
+            "relationship_description": "Stepmother marries the Rich Man, becoming Cinderella\u2019s stepmother and mistreating her significantly.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "Stepsisters",
+            "target_entity": "Cinderella",
+            "relationship_description": "The Stepsisters are the daughters of the Stepmother and mistreat Cinderella through bullying and ostracism.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "Stepmother",
+            "target_entity": "Rich Man",
+            "relationship_description": "Stepmother becomes the wife of the Rich Man and takes on the role of Cinderella\u2019s stepmother, shaping much of the conflict in the story.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "Stepmother",
+            "target_entity": "Stepsisters",
+            "relationship_description": "The Stepmother treats her biological daughters, the Stepsisters, with preference and encourages them to attend the festival in hopes of winning the prince\u2019s attention.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "King's Son",
+            "target_entity": "Cinderella",
+            "relationship_description": "The King's Son becomes infatuated with Cinderella at the festival and is determined to identify her. He confirms her identity by the fit of the golden slipper, leading to their marriage.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Pigeon-house",
+            "target_entity": "Cinderella",
+            "relationship_description": "Though not directly related, the Pigeon-house serves as a hiding place for Cinderella, helping her evade the King's Son following the festival.",
+            "relationship_strength": 4
+        },
+        {
+            "source_entity": "Cinderella",
+            "target_entity": "King's Son",
+            "relationship_description": "Cinderella and the King's Son share a romantic connection initiated at the festival where they dance, culminating in their successful union when he identifies her as the true owner of the golden slipper.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "Stepsisters",
+            "target_entity": "King's Son",
+            "relationship_description": "The Stepsisters try to deceive the King's Son to win his favor and even go to the extreme of physically harming themselves to fit into the prince's slipper, but they fail and face consequences.",
+            "relationship_strength": 7
+        }
+    ]
+}

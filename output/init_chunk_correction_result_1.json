@@ -1,0 +1,51 @@
+{
+    "entities": [
+        {
+            "entity_type": "PERSON",
+            "entity_name": "KING",
+            "entity_description": "A royal figure who is the father of several daughters, including the youngest who is renowned for her extraordinary beauty. The King is also described as a ruler who is present during key events, such as a dinner conversation about a frog. He holds an authoritative role, becoming angry with his daughter for failing to keep her promise to the frog, and emphasizes holding his daughter accountable."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "KING'S DAUGHTER",
+            "entity_description": "The youngest daughter of the King, noted for her exceptional beauty admired even by the sun. She plays a central role in the narrative, where she interacts with a frog at a well, eventually leading to the frog's transformation into a prince. Initially reluctant and unhappy about keeping her promise to the frog after it retrieves her golden ball from the well, she is ultimately held accountable by her father, the King, and becomes the bride of the prince."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "WELL",
+            "entity_description": "A geographical feature near the royal castle. The well is significant in the narrative as the place where the King's daughter frequently visits. It is also where she loses her golden ball, leading to a transformative interaction with a frog that sets off the main events of the story, including the daughter's promise to the frog."
+        }
+    ],
+    "relations": [
+        {
+            "source_entity": "KING",
+            "target_entity": "KING'S DAUGHTER",
+            "relationship_description": "The King's daughter is one of the children of the King, making them directly related as father and daughter.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "KING'S DAUGHTER",
+            "target_entity": "WELL",
+            "relationship_description": "The well is a location near the King's castle where the King's daughter often spends her time, indicating her frequent visits to this geographical feature.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "KING'S DAUGHTER",
+            "target_entity": "KING",
+            "relationship_description": "The King's daughter is the daughter of the King, indicating a familial relationship.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "KING'S DAUGHTER",
+            "target_entity": "WELL",
+            "relationship_description": "The well is where the King's daughter was playing and lost her golden ball, leading to the interaction and promise with the frog. This geographical location is central to the development of her interaction with the frog.",
+            "relationship_strength": 6
+        },
+        {
+            "source_entity": "KING",
+            "target_entity": "KING'S DAUGHTER",
+            "relationship_description": "The King's daughter, having promised the frog, was held accountable by the King to fulfill her promise, demonstrating the King's authoritative role over his daughter.",
+            "relationship_strength": 8
+        }
+    ]
+}

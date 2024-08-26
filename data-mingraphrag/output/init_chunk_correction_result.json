@@ -1,0 +1,195 @@
+{
+    "entities": [
+        {
+            "entity_type": "PERSON",
+            "entity_name": "MAN",
+            "entity_description": "A wealthy man who experienced the loss of his first wife and subsequently remarried a woman with two daughters. He plays a paternal role in the story and is involved in gifting and fulfilling the desires of his daughters from the fair."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "WIFE",
+            "entity_description": "The initial wife of the rich man and Cinderella's biological mother, who advised her daughter to remain pious and good prior to her death. Her grave becomes a place of significance in the story, serving as a site of magical assistance for Cinderella."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "DAUGHTER",
+            "entity_description": "The sole daughter of the MAN and his first wife, known as Cinderella. She is renowned for her piety and goodness, enduring hardship under her stepmother's and stepsisters' treatment, yet ultimately attending the royal festival under magical disguise, captivating the prince and marrying him."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "GRAVE",
+            "entity_description": "The grave of Cinderella's biological mother, where Cinderella frequently visits to mourn and pray. This place holds magical significance, aiding Cinderella in her trials."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "FAIR",
+            "entity_description": "An event or location where the MAN intends to acquire gifts for his daughters, including Cinderella, as a gesture of consideration and care."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "NEW WIFE",
+            "entity_description": "The second wife of the MAN, who becomes Cinderella's stepmother. She introduces significant hardships and imposes impossible tasks on Cinderella to prevent her from attending the king's festival."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "STEP-DAUGHTERS",
+            "entity_description": "The two daughters of the NEW WIFE, known for their beauty but noted for their wickedness and jealousy towards Cinderella. They attempt to deceive the prince but eventually face punishment for their actions."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "FESTIVAL",
+            "entity_description": "A grand festival organized by the king, lasting three days, where all the young, beautiful women of the country are invited. The king's son is to choose his bride from the attendees. It is the setting where Cinderella makes a magical appearance and captures the attention of the prince."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "KING",
+            "entity_description": "The monarch of the kingdom who organizes the festival with the intention of finding a bride for his son, the king's son."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "KING'S SON",
+            "entity_description": "The prince, often referred to as the king's son, who is tasked with choosing a bride at the king's festival. He falls in love with Cinderella during the event and marries her after recognizing her as the true bride."
+        },
+        {
+            "entity_type": "GEO",
+            "entity_name": "TREE",
+            "entity_description": "A hazel tree under which the GRAVE of Cinderella's mother is situated. It serves as a magical site for Cinderella's transformation and provides aid through a BIRD."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "CINDERELLA",
+            "entity_description": "Cinderella is the protagonist of the story, a kind and pious young woman who endures challenges imposed by her stepmother and stepsisters. With magical assistance, she attends the festival and ultimately marries the prince."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "BIRD",
+            "entity_description": "A BIRD that aids Cinderella by providing her with splendid dresses so she can attend the festival and captivate the prince."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "PRINCE",
+            "entity_description": "The prince in the kingdom, who becomes enamored with Cinderella at the festival and chooses to marry her."
+        },
+        {
+            "entity_type": "PERSON",
+            "entity_name": "GUESTS",
+            "entity_description": "Attendees of the king's festival, witnessing Cinderella's transformation and her interactions with the prince."
+        }
+    ],
+    "relations": [
+        {
+            "source_entity": "WIFE",
+            "target_entity": "DAUGHTER",
+            "relationship_description": "The wife is the mother of the daughter, imparting her final advice to be pious and good before passing away.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "MAN",
+            "target_entity": "NEW WIFE",
+            "relationship_description": "The new wife married the man after the death of his first wife, becoming Cinderella's stepmother.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "NEW WIFE",
+            "target_entity": "STEP-DAUGHTERS",
+            "relationship_description": "The step-daughters are the daughters of the new wife, who treated Cinderella harshly and lived with her in the same household.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "STEP-DAUGHTERS",
+            "target_entity": "DAUGHTER",
+            "relationship_description": "The step-daughters lived in the same household as Cinderella, making her life difficult through mistreatment.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "DAUGHTER",
+            "target_entity": "GRAVE",
+            "relationship_description": "Cinderella frequently visited her mother's grave to mourn, seek solace, and receive magical help, indicating a deep emotional connection.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "MAN",
+            "target_entity": "STEP-DAUGHTERS",
+            "relationship_description": "The father asked what gifts his daughters wanted from the fair, highlighting his relationship with the step-daughters.",
+            "relationship_strength": 6
+        },
+        {
+            "source_entity": "MAN",
+            "target_entity": "DAUGHTER",
+            "relationship_description": "The father gave Cinderella the hazel twig from the lane, fulfilling her wish from the fair and showing a bond of understanding between them.",
+            "relationship_strength": 6
+        },
+        {
+            "source_entity": "KING",
+            "target_entity": "KING'S SON",
+            "relationship_description": "The king's son is the focus of the festival organized by the king, with the objective of finding him a bride among young women.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "FESTIVAL",
+            "target_entity": "KING'S SON",
+            "relationship_description": "The festival is the place where the king's son seeks to find a bride among the attendees, a search endorsed and initiated by the king.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "STEP-DAUGHTERS",
+            "target_entity": "FESTIVAL",
+            "relationship_description": "The step-daughters are eager to attend the festival, revealing their ambitions and competitive nature with Cinderella.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "NEW WIFE",
+            "target_entity": "FESTIVAL",
+            "relationship_description": "The new wife plays a prohibitive role, preventing Cinderella from attending the festival, reflecting her control over household activities.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "STEP-DAUGHTERS",
+            "target_entity": "NEW WIFE",
+            "relationship_description": "Cinderella's step-daughters are related to the new wife as her children, playing antagonistic roles in the fairy tale narrative.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "KING",
+            "target_entity": "FESTIVAL",
+            "relationship_description": "The king hosts the festival to create an opportunity for his son to choose a bride, facilitating Cinderella's transformation and entry into high society.",
+            "relationship_strength": 7
+        },
+        {
+            "source_entity": "CINDERELLA",
+            "target_entity": "BIRD",
+            "relationship_description": "Cinderella receives magical help from the birds at her mother's grave and from the tree, which allows her to attend the festival safely and confidently.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "CINDERELLA",
+            "target_entity": "PRINCE",
+            "relationship_description": "Cinderella's interactions with the prince culminate at the festival, where the prince is smitten by her presence and beauty.",
+            "relationship_strength": 9
+        },
+        {
+            "source_entity": "TREE",
+            "target_entity": "GRAVE",
+            "relationship_description": "The tree is central to the garden, which is a location of significance for Cinderella's magical transformation and escape plans.",
+            "relationship_strength": 6
+        },
+        {
+            "source_entity": "PRINCE",
+            "target_entity": "CINDERELLA",
+            "relationship_description": "The prince, enamored by Cinderella at the festival, pursues a connection with her that eventually leads to marriage once her identity is revealed.",
+            "relationship_strength": 10
+        },
+        {
+            "source_entity": "STEP-DAUGHTERS",
+            "target_entity": "CINDERELLA",
+            "relationship_description": "Cinderella's stepsisters are envious of her union with the prince and tried to disrupt it, ultimately facing punishment for their treachery.",
+            "relationship_strength": 8
+        },
+        {
+            "source_entity": "BIRD",
+            "target_entity": "CINDERELLA",
+            "relationship_description": "The pigeons support Cinderella by revealing her as the rightful bride and confound her stepsisters' plans of deception.",
+            "relationship_strength": 7
+        }
+    ]
+}
