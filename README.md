@@ -1,6 +1,6 @@
 
 
-1. Place your data files in the 'data-mingraphrag/input' directory.
+1. Place your data files in the 'data-mingraphrag/input' directory. we already have a 'Cinderella.txt' file for you.
 2. Execute the following command to initialize the files: 
    ```bash
    python ./mingraphrag/main.py
@@ -10,8 +10,6 @@
    python ./mingraphrag/UI.py
    ```
 
-这个是对graphrag的一个简单模仿，我们使用response_format来简化graphrag中提取实体的步骤，同时借用get_stable_connected_components函数来计算其中的community，因为故事比较短所以我们只有一个群组，也就是将所有的实体放进去然后总结了一遍。。 对应的聚合方法和RAPTOR方法一致。
+本项目是对 Graphrag 的简化实现。我们使用 `response_format` 来优化提取实体的过程，并借助 `get_stable_connected_components` 函数来计算社区（community）。由于故事相对简短，因此我们只需要一个社区，这个社区包含了所有的实体，并进行了汇总。该聚合方法与 RAPTOR 方法一致。
 
-graphrag在创建完成关系图之后，community实际上就是图在信息上的传播，经过多次传播之后局部的信息就汇总到了一个最大的community上。
-因此其更加适合检索任务，对于生成任务之类的效果很差。
-
+在 Graphrag 中，完成关系图的构建后，社区实际上代表了信息在图中的传播过程。经过多次传播，局部信息最终汇集成一个最大的社区。因此，Graphrag 更加适用于检索任务，但在生成任务方面表现相对较差。
