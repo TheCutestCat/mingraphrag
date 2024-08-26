@@ -3,11 +3,11 @@
 1. Place your data files in the 'data-mingraphrag/input' directory. we already have a 'Cinderella.txt' file for you.
 2. Execute the following command to initialize the files: 
    ```bash
-   python ./min-graphrag/main.py
+   python ./mingraphrag/main.py
    ```
 3. To launch a simple RAG (Retrieval-Augmented Generation) interface based on Graphrag, run:
    ```bash
-   python ./min-graphrag/UI.py
+   python ./mingraphrag/UI.py
    ```
 
 本项目是对 Graphrag 的简化实现。我们使用 `response_format` 来优化提取实体的过程，并借助 `get_stable_connected_components` 函数来计算社区（community）。由于故事相对简短，因此我们只需要一个社区，这个社区包含了所有的实体，并进行了汇总。该聚合方法与 RAPTOR 方法一致。
