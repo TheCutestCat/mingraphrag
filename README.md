@@ -2,11 +2,11 @@
 
 1. Place your data files in the 'data-mingraphrag/input' directory. we already have a 'Cinderella.txt' file for you.
 2. Execute the following command to initialize the files: 
-   ```bash
+   ```shell
    python ./mingraphrag/main.py
    ```
 3. To launch a simple RAG (Retrieval-Augmented Generation) interface based on Graphrag, run:
-   ```bash
+   ```shell
    python ./mingraphrag/UI.py
    ```
 
